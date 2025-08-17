@@ -339,8 +339,14 @@ typedef struct {
 } WAVEFORMATEXTENSIBLE, *PWAVEFORMATEXTENSIBLE;
 #endif
 
+// Define the GUIDs properly with DEFINE_GUID
+#include <initguid.h>
 
-const static GUID  KSDATAFORMAT_SUBTYPE_PCM = {0x00000001,0x0000,0x0010,
+// Define the GUIDs we need
+DEFINE_GUID(KSDATAFORMAT_SUBTYPE_PCM, 0x00000001, 0x0000, 0x0010, 0x80, 0x00, 0x00, 0xaa, 0x00, 0x38, 0x9b, 0x71);
+DEFINE_GUID(KSDATAFORMAT_SUBTYPE_IEEE_FLOAT, 0x00000003, 0x0000, 0x0010, 0x80, 0x00, 0x00, 0xaa, 0x00, 0x38, 0x9b, 0x71);
+
+/*const static GUID  KSDATAFORMAT_SUBTYPE_PCM = {0x00000001,0x0000,0x0010,
                                                             {0x80,
                                                             0x00,
                                                             0x00,
@@ -358,7 +364,7 @@ const static GUID  KSDATAFORMAT_SUBTYPE_IEEE_FLOAT = {0x00000003,0x0000,0x0010,
                                                             0x00,
                                                             0x38,
                                                             0x9b,
-                                                            0x71}};
+                                                            0x71}};*/
 
 //B-FORMAT!
 // {00000001-0721-11d3-8644-C8C1CA000000}

@@ -1,0 +1,3 @@
+C:\msys64\mingw64\bin\cmake.exe -E rm -f CMakeFiles\cubicspline.dir/objects.a
+C:\msys64\mingw64\bin\ar.exe qc CMakeFiles\cubicspline.dir/objects.a @CMakeFiles\cubicspline.dir\objects1.rsp
+C:\msys64\mingw64\bin\cc.exe -O2 -Wall -DWIN32 -lwinmm -lole32 -luuid -ldsound -Wl,--whole-archive CMakeFiles\cubicspline.dir/objects.a -Wl,--no-whole-archive -o C:\msys64\CDP8\NewRelease\cubicspline.exe -Wl,--out-implib,libcubicspline.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cubicspline.dir\linkLibs.rsp

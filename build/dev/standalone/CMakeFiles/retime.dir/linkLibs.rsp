@@ -1,0 +1,1 @@
+  -LC:/msys64/CDP8/dev/standalone/../cdp2k  -LC:/msys64/CDP8/dev/standalone/../newsfsys  ../cdp2k/libcdp2k.a ../newsfsys/libsfsys.a ../pvxio2/libpvxio2.a -lkernel32 -luser32 -lole32 -lwinspool -lodbc32 -lgdi32 -lcomdlg32 -ladvapi32 -lshell32 -loleaut32 -luuid -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 

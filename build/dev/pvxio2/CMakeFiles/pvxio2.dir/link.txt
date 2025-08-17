@@ -1,0 +1,2 @@
+C:\msys64\mingw64\bin\ar.exe qc libpvxio2.a CMakeFiles/pvxio2.dir/pvfileio.c.obj
+C:\msys64\mingw64\bin\ranlib.exe libpvxio2.a

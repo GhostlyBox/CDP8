@@ -1,0 +1,3 @@
+C:\msys64\mingw64\bin\cmake.exe -E rm -f CMakeFiles\manysil.dir/objects.a
+C:\msys64\mingw64\bin\ar.exe qc CMakeFiles\manysil.dir/objects.a @CMakeFiles\manysil.dir\objects1.rsp
+C:\msys64\mingw64\bin\cc.exe -O2 -Wall -DWIN32 -lwinmm -lole32 -luuid -ldsound -Wl,--whole-archive CMakeFiles\manysil.dir/objects.a -Wl,--no-whole-archive -o C:\msys64\CDP8\NewRelease\manysil.exe -Wl,--out-implib,libmanysil.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\manysil.dir\linkLibs.rsp

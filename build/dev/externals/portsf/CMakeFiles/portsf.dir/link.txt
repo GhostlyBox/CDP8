@@ -1,0 +1,2 @@
+C:\msys64\mingw64\bin\ar.exe qc libportsf.a CMakeFiles/portsf.dir/portsf.c.obj CMakeFiles/portsf.dir/ieee80.c.obj
+C:\msys64\mingw64\bin\ranlib.exe libportsf.a

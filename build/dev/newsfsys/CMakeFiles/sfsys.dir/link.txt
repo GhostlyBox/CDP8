@@ -1,0 +1,2 @@
+C:\msys64\mingw64\bin\ar.exe qc libsfsys.a CMakeFiles/sfsys.dir/sfsys.c.obj CMakeFiles/sfsys.dir/snd.c.obj CMakeFiles/sfsys.dir/sfdir.c.obj CMakeFiles/sfsys.dir/osbind.c.obj CMakeFiles/sfsys.dir/props.c.obj CMakeFiles/sfsys.dir/shortcuts.c.obj CMakeFiles/sfsys.dir/scandir.c.obj CMakeFiles/sfsys.dir/alias.c.obj CMakeFiles/sfsys.dir/ieee80.c.obj
+C:\msys64\mingw64\bin\ranlib.exe libsfsys.a

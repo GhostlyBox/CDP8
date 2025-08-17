@@ -1,0 +1,3 @@
+C:\msys64\mingw64\bin\cmake.exe -E rm -f CMakeFiles\sfedit.dir/objects.a
+C:\msys64\mingw64\bin\ar.exe qc CMakeFiles\sfedit.dir/objects.a @CMakeFiles\sfedit.dir\objects1.rsp
+C:\msys64\mingw64\bin\cc.exe -O2 -Wall -DWIN32 -lwinmm -lole32 -luuid -ldsound -Wl,--whole-archive CMakeFiles\sfedit.dir/objects.a -Wl,--no-whole-archive -o C:\msys64\CDP8\NewRelease\sfedit.exe -Wl,--out-implib,libsfedit.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\sfedit.dir\linkLibs.rsp

@@ -1,0 +1,3 @@
+C:\msys64\mingw64\bin\cmake.exe -E rm -f CMakeFiles\reverb.dir/objects.a
+C:\msys64\mingw64\bin\ar.exe qc CMakeFiles\reverb.dir/objects.a @CMakeFiles\reverb.dir\objects1.rsp
+C:\msys64\mingw64\bin\c++.exe -O3 -DWIN32 -D_WIN32 -fomit-frame-pointer  -funroll-loops -static-libgcc -static-libstdc++ -lwinmm -lole32 -luuid -ldsound -Wl,--whole-archive CMakeFiles\reverb.dir/objects.a -Wl,--no-whole-archive -o C:\msys64\CDP8\NewRelease\reverb.exe -Wl,--out-implib,libreverb.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\reverb.dir\linkLibs.rsp
